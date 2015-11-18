@@ -1,0 +1,124 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text="My Nanodegree Apps!"/>
+    </RelativeLayout>
+
+    <GridLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:rowCount="3"
+        android:columnCount="3">
+
+        <FrameLayout>
+
+            <Button android:text="Profile"
+                android:id="@+id/button_profile"
+                android:layout_height="120dp"
+                android:layout_width="120dp"
+                android:background="@drawable/small_squares"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColor="#fff" />
+        </FrameLayout>
+
+        <FrameLayout>
+
+            <Button android:text="Spotify Streamer"
+                android:id="@+id/button_streamer"
+                android:layout_height="120dp"
+                android:layout_width="120dp"
+                android:background="@drawable/small_squares"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColor="#fff" />
+        </FrameLayout>
+
+        <FrameLayout>
+
+            <Button android:text="Scores App"
+                android:id="@+id/button_scores"
+                android:layout_height="120dp"
+                android:layout_width="120dp"
+                android:background="@drawable/small_squares"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColor="#fff" />
+        </FrameLayout>
+
+        <FrameLayout>
+
+            <Button android:text="Library App"
+                android:id="@+id/button_library"
+                android:layout_height="120dp"
+                android:layout_width="120dp"
+                android:background="@drawable/small_squares"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColor="#fff" />
+        </FrameLayout>
+
+        <FrameLayout>
+
+            <Button android:text="Build It Bigger"
+                android:id="@+id/button_bigger"
+                android:layout_height="120dp"
+                android:layout_width="120dp"
+                android:background="@drawable/small_squares"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColor="#fff" />
+        </FrameLayout>
+
+        <FrameLayout>
+
+            <Button android:text="XYZ Reader"
+                android:id="@+id/button_reader"
+                android:layout_height="120dp"
+                android:layout_width="120dp"
+                android:background="@drawable/small_squares"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColor="#fff" />
+        </FrameLayout>
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="360dp"
+        android:layout_height="200dp"
+        android:rowCount="1"
+        android:columnCount="1"
+        android:layout_gravity="bottom">
+
+        <RelativeLayout>
+
+            <Button android:text="Capstone: My Own App"
+                android:id="@+id/button_capstone"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:background="@drawable/big_squares"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColor="#fff" />
+
+        </RelativeLayout>
+    </GridLayout>
+</FrameLayout>
+
